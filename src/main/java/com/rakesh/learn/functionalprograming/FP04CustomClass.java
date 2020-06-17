@@ -170,6 +170,6 @@ public class FP04CustomClass {
         courses.stream()
                 .collect(Collectors.groupingBy(Course::getCategory));
 
-        
+
     }
 }
